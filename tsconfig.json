@@ -1,20 +1,13 @@
 {
-  "compilerOptions": {
-    "moduleResolution": "Bundler",
-    "module": "ESNext",
-    "types": [
-      "unplugin-vue-router/client"
-    ]
-  },
   "references": [
-    // {
-    //   "path": "./tsconfig.node.json"
-    // },
-    // {
-    //   "path": "./tsconfig.app.json"
-    // },
-    // {
-    //   "path": "./tsconfig.vitest.json"
-    // }
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
   ],
 }
